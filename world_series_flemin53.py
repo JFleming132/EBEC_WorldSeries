@@ -39,7 +39,7 @@ def load_winners_data():
     while "" in file:
         file.remove("")
     for year in range(1903,2021):
-        if year < 1903:
+        if year < 1904:
             winners[year]=file[year-1903]
         if year == 1904:
             continue
