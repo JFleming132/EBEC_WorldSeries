@@ -36,6 +36,8 @@ def load_winners_data():
     with open("WorldSeriesWinners.txt", "r") as data:
         file = data.read()
     file = file.split("\n")
+    while "" in file
+        file.remove("")
     for year in range(1903,2021):
         if year < 1903:
             winners[year]=file[year-1903]
