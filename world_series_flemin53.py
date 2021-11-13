@@ -60,9 +60,9 @@ def main():
     if year <= 1903 or year >= 2020:
         print(f"  Data for the year {year} is not included in this system.")
     elif winners.get(year) == None:
-        print(f"  The World Series wasn't played in {year}.")
+        print(f"  The World Series wasn't played in the year {year}.")
     elif winners.get(year) != "Not Played":
-        print(f'  The {winners[year]} won the World Series in the year {year}.')
+        print(f'  The {winners[year]} won the World Series in {year}.')
         print(f'  They have won the World Series {totalWins[winners[year]]} times.')
 
 
