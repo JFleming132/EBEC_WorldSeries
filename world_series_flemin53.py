@@ -30,7 +30,7 @@ Academic Integrity Statement:
 
 
 # Write new functions below this line (starting with unit 4).
-def load_winner_data():
+def load_winners_data():
     winners = {}
     totalWins = {}
     with open("WorldSeriesWinners.txt", "r") as data:
