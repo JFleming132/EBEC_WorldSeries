@@ -62,7 +62,7 @@ def main():
     elif winners.get(year) != "Not Played":
         print(f'  The {winners[year]} won the World Series in {year}.')
         print(f'  They have won the World Series {totalWins[winners[year]]} times.')
-    elif winners.get(year) = None:
+    elif winners.get(year) == None:
         print(f"  The World Series wasn't played in {year}.")
 
 
