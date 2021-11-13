@@ -1,10 +1,10 @@
 """
-Author: Your Name, login@purdue.edu
-Assignment: mm.n - Assignment Name
-Date: MM/DD/YYYY
+Author: Joseph Fleming, flemin53@purdue.edu
+Assignment: mm.n - World Series
+Date: 11/13/2021
 
 Description:
-    Describe your program here.
+    This program initializes a database of years and the baseball team that won the world series that year.
 
 Contributors:
     Name, login@purdue.edu [repeat for each]
