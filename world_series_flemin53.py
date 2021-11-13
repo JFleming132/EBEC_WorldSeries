@@ -57,13 +57,14 @@ def load_winners_data():
 def main():
     totalWins, winners = load_winners_data()
     year = int(input('Enter a year in the range 1903 -- 2020: '))
-    if year <= 1903 or year >= 2020:
+    if winners.get(year) == None:
+        print(f"  The World Series wasn't played in {year}.")
+    elif year <= 1903 or year >= 2020:
         print(f"  Data for the year {year} is not included in this system.")
     elif winners.get(year) != "Not Played":
         print(f'  The {winners[year]} won the World Series in {year}.')
         print(f'  They have won the World Series {totalWins[winners[year]]} times.')
-    elif winners.get(year) == None:
-        print(f"  The World Series wasn't played in {year}.")
+
 
 
 if __name__ == '__main__':
