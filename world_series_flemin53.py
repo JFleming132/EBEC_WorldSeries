@@ -53,7 +53,7 @@ def load_winners_data():
     return winners, totalWins
 
 def main():
-    winners, totalWins = load_winner_data()
+    winners, totalWins = load_winners_data()
     year = int(input('Enter a year in the range 1903 -- 2020: '))
     if year <= 1903 or year >= 2020:
         print(f"Data for the year {year} is not included in this system")
